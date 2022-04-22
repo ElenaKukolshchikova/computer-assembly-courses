@@ -1,0 +1,61 @@
+.footer {
+    padding-bottom: 106px;
+    padding-top: 50px;
+    background-color: #000;
+    &__subtitle {
+        width: 411px;
+        margin: 0 auto;
+        margin-top: 30px;
+        text-align: center;
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    &__form {
+        position: relative;
+        margin-top: 60px;
+        text-align: center;
+        input {
+            width: 421px;
+            height: 44px;
+            background-color: $grey-color;
+            border-radius: 50px;
+            color: #ffffff;
+            border: none;
+            padding: 0 30px;
+            -webkit-text-fill-color: #ffffff;
+        }
+    }
+    &__btn {
+        position: absolute;
+        background: $main-color;
+        width: 160px;
+        height: 44px;
+        top: 0;
+        right: 373px;
+    }
+    &__wrapper {
+        margin: 0 auto;
+        margin-top: 40px;
+        width: 290px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__round {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 50px;
+        height: 50px;
+        background: $second-color;
+        border-radius: 100%;
+    }
+    &__search input {
+        &:focus {
+            background-color: $grey-color;
+            -webkit-text-fill-color: #000;
+            outline: none;
+        }
+    }
+}

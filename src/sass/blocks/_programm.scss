@@ -1,0 +1,63 @@
+.programm {
+    padding-bottom: 190px;
+    background-color: #000;
+    &__title {
+        text-align: center;
+        img {
+            transform: rotate(-45deg);
+        }
+    }
+    &__subtitle {
+        position: relative;
+        width: 411px;
+        margin: 0 auto;
+        margin-top: 30px;
+        font-weight: 400;
+        font-size: 16px;
+        color: $grey-color;
+        text-align: center;
+    }
+    &__wrapper {
+        margin-top: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__odd {
+        position: relative;
+        padding-right: 120px;
+        text-align: right;
+        @include mainLine;
+    }
+    &__item {
+        width: 305px;
+        margin-bottom: 80px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        &_mb {
+            margin-bottom: 70px;
+        }
+        &-head {
+            font-weight: 400;
+            font-size: 14px;
+            color: $grey-color;
+        }
+        &-body {
+            position: relative;
+            margin-top: 15px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            color: #ffffff;
+            &_aft {
+                @include lineOdd;
+            }
+            &_bf {
+                @include lineEven;
+            }
+        }
+    }
+
+
+}

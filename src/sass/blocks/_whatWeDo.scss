@@ -1,0 +1,22 @@
+.whatWeDo {
+    padding: 200px 0;
+    background: url('../img/main-bg2.jpg') center center/cover no-repeat;
+    &__wrapper {
+        display: flex;
+        // justify-content: space-between;
+        img {
+            width: 50%;
+        }
+    }
+    &__item {
+        width: 50%;
+    }
+    &__descr {
+        margin-top: 50px;
+        padding-left: 140px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #ffffff;
+        line-height: 35px;
+    }
+}

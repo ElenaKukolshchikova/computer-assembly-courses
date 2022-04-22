@@ -1,0 +1,32 @@
+.title {
+    font-weight: 700;
+    font-size: 48px;
+    text-align: left;
+    color: #ffffff;
+    &_fz64 {
+        font-size: 64px;
+    }
+    &_whatWeDo {
+        margin-top: 80px;
+        padding-left: 140px;
+    }
+    &_center {
+        text-align: center;
+    }
+    &_st {
+        margin-top: 45px;
+    }
+    &_pt {
+        margin-top: 40px;
+    }
+    &_prt {
+        text-align: center;
+        margin-top: 30px;
+    }
+    &_tch {
+        margin-top: 60px;
+    }
+    &_ft {
+        text-align: center;
+    }
+}

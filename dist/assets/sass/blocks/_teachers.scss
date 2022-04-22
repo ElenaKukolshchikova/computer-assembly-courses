@@ -1,0 +1,46 @@
+.teachers {
+    padding-bottom: 150px;
+    padding-top: 30px;
+    background: url('../img/main-bg3.jpg') center center/cover no-repeat;
+    &__start {
+        display: flex;
+    }
+    &__wrapper {
+        margin-top: 50px;
+        padding: 0 115px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 415px;
+        text-align: center;
+        &-title {
+            margin-top: 40px;
+            font-weight: 500;
+            font-size: 24px;
+            color: #ffffff;
+        }
+        &-subtitle {
+            font-weight: 400;
+            font-size: 16px;
+            margin-top: 15px;
+            color: $grey-color;
+        }
+        &-btn {
+            margin-top: 40px;
+            width: 143px;
+            height: 44px;
+            background-color: rgba(28,28,28,0);
+            border-radius: 50px;
+            border: 2px solid #ffffff;
+            font-weight: 400;
+            font-size: 16px;
+            color: #ffffff;
+            cursor: pointer;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}
